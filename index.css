@@ -31,20 +31,46 @@ body{
     flex-direction: column;
 }
 a:visited{
-    color: rgb(97, 83, 83);
+    color: grey;
 }
 #banniere{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 20px;
 }
 
 #logo{
-    padding-right: 400px;
-    margin: auto;
+    padding-right: 550px;
+    margin: 22px;
+    margin-left: 200px;
 }
 #navigation{
+    display: flex;
+    justify-content: space-around;
     font-size: 1.2em;
+}
+#accueil{
+    padding: 40px 10px 40px 10px;
+}
+#accueil:hover{
+    border-top: solid 4px aqua;
+}
+#services{
+    padding: 40px 10px 40px 10px;
+}
+#services:hover{
+    border-top: solid 4px aqua;
+}
+#portofolio{
+    padding: 40px 10px 40px 10px;
+}
+#portofolio:hover{
+    border-top: solid 4px aqua;
+}
+#contact{
+    padding: 40px 10px 40px 10px;
+}
+#contact:hover{
+    border-top: solid 4px aqua;
 }
