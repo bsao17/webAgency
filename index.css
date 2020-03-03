@@ -35,9 +35,12 @@ a:visited{
 }
 #banniere{
     display: flex;
+    border: solid 1px black;
+    position: fixed;
     justify-content: center;
     align-items: center;
     background-color: white;
+
 }
 
 #logo{
@@ -73,4 +76,10 @@ a:visited{
 }
 #contact:hover{
     border-top: solid 4px aqua;
+}
+#imageAccueil{
+    margin-top: 105px;
+}
+#banniere:nth-child(1){
+    flex: 2;
 }
