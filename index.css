@@ -39,19 +39,24 @@ a:visited{
     display: flex;
     position: fixed;
     width: 100%;
-    justify-content: space-evenly;
+    height: auto;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
-
+    z-index: 1;
 }
 
 #logo{
-    padding-right: 550px;
-    margin: 22px;
-    margin-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    
 }
-#navigation{
+#navi{
     display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    margin: auto;
     font-size: 1.2em;
 }
 #accueil{
@@ -78,13 +83,19 @@ a:visited{
 #contact:hover{
     border-top: solid 4px aqua;
 }
+#corpsAccueil{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 #imageAccueil{
+    position: relative;
     margin-top: 106px;
     display: flex;
     justify-content: center;
-    position: relative;
 }
 #texteAccueil{
+    border: solid 1px black;
     position: absolute;
     top: 250px;
     bottom: auto;
