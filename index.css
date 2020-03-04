@@ -100,9 +100,11 @@ a:visited{
 }
 #imageAccueil{
     position: relative;
-    margin-top: 106px;
-    /*display: flex;*/
+    
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     
 }
 #texteAccueil{
@@ -117,11 +119,9 @@ a:visited{
     color: white;
     font-size: 1.4em;
     font-family: 'robotobold';
-    border: solid 1px black;
 }
 #texteAccueil p{
     font-size: 0.7em;
-    border: solid 1px black;
 }
 #texteAccueil h1 br{
     height: 0px;
@@ -135,7 +135,7 @@ button{
     color: white;
     font-family: 'robotobold',Arial, sans-serif;
     font-size: 1em;
-    margin: 200px 0px 0px 200px
+    margin: 250px 0px 0px 200px
 }
 #texteAccueil h1 span{
     color:rgb(50, 143, 250);
