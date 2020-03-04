@@ -32,6 +32,9 @@ body{
     flex-direction: column;
     
 }
+a{
+    text-decoration: none
+}
 a:visited{
     color: grey;
 }
@@ -39,7 +42,7 @@ a:visited{
     display: flex;
     position: fixed;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
 
@@ -81,11 +84,12 @@ a:visited{
 #imageAccueil{
     margin-top: 106px;
     display: flex;
-    justify-content: center;
-    position: relative;
+    /*justify-content: center;
+    position: relative;*/
 }
 #texteAccueil{
     position: absolute;
+    /*display: flex;*/
     top: 250px;
     bottom: auto;
     left: 200px;
