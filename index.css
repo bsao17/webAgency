@@ -121,10 +121,8 @@ a:visited{
 }
 #texteAccueil p{
     font-size: 0.7em;
+    margin-top: 0%;
     border: solid 1px black;
-}
-#texteAccueil h1 br{
-    height: 0px;
 }
 
 button{
@@ -135,7 +133,7 @@ button{
     color: white;
     font-family: 'robotobold',Arial, sans-serif;
     font-size: 1em;
-    margin: 200px 0px 0px 200px
+    margin: 250px 0px 0px 200px
 }
 #texteAccueil h1 span{
     color:rgb(50, 143, 250);
