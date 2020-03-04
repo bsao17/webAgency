@@ -103,9 +103,37 @@ a:visited{
     display: flex;
     width: 200%;
     margin-top: 106px;
-   /*transition-property: width;
-    transition-duration: 2000ms;*/
+    animation-name: sliderAccueil;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+    -moz-animation-name: sliderAccueil;
+    -moz-animation-duration: 20s;
+    -moz-animation-delay: 5s;
+    -moz-animation-timing-function: steps(1);
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
     
+    -webkit-animation-name: sliderAccueil;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-timing-function: steps(1);
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@keyframes sliderAccueil{
+    0%{
+        transform: translateX(0%);
+    }
+    33%{
+        transform: translateX(-50%);
+    }
+    66%{
+        transform: translateX(-1OO%);
+    }
 }
 
 #texteAccueil{
