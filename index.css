@@ -24,19 +24,26 @@
 }
 
 body{
+    margin: 0%;
+    
+}
+#bloc_page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-family: 'robotomedium','robotobold',Arial, sans-serif;
     font-size: 0.9em;
     color: grey;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    
+}
+a{
+    text-decoration: none
 }
 a:visited{
     color: grey;
 }
 #banniere{
     display: flex;
+    flex-wrap: wrap;
     position: fixed;
     width: 100%;
     height: auto;
@@ -63,48 +70,74 @@ a:visited{
     padding: 40px 10px 40px 10px;
 }
 #accueil:hover{
-    border-top: solid 4px aqua;
+    border-top: solid 2px aqua;
 }
 #services{
     padding: 40px 10px 40px 10px;
 }
 #services:hover{
-    border-top: solid 4px aqua;
+    border-top: solid 2px aqua;
 }
 #portofolio{
     padding: 40px 10px 40px 10px;
 }
 #portofolio:hover{
-    border-top: solid 4px aqua;
+    border-top: solid 2px aqua;
 }
 #contact{
     padding: 40px 10px 40px 10px;
 }
 #contact:hover{
-    border-top: solid 4px aqua;
+    border-top: solid 2px aqua;
 }
 #corpsAccueil{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border: solid 1px black;
 }
 #imageAccueil{
     position: relative;
     margin-top: 106px;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
+    
 }
 #texteAccueil{
-    border: solid 1px black;
     position: absolute;
-    top: 250px;
+    /*align-self: 300px;*/
+    margin-left: 200px;
+    padding-bottom: 0px;
+    /*top: 250px;
     bottom: auto;
     left: 200px;
-    right: auto;
+    right: auto;*/
     color: white;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-family: 'robotobold';
+    border: solid 1px black;
 }
-#texteAccueil span{
+#texteAccueil p{
+    font-size: 0.7em;
+    border: solid 1px black;
+}
+#texteAccueil h1 br{
+    height: 0px;
+}
+
+button{
+    position: absolute;
+    background-color: rgb(50, 143, 250);
+    border-color: rgb(50, 143, 250) ;
+    height: 40px;
+    color: white;
+    font-family: 'robotobold',Arial, sans-serif;
+    font-size: 1em;
+    margin: 200px 0px 0px 200px
+}
+#texteAccueil h1 span{
     color:rgb(50, 143, 250);
 }
+
