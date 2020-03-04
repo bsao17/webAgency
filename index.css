@@ -100,9 +100,11 @@ a:visited{
 }
 #imageAccueil{
     position: relative;
-    margin-top: 106px;
-    /*display: flex;*/
+    
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     
 }
 #texteAccueil{
@@ -117,12 +119,14 @@ a:visited{
     color: white;
     font-size: 1.4em;
     font-family: 'robotobold';
-    border: solid 1px black;
 }
 #texteAccueil p{
     font-size: 0.7em;
+<<<<<<< HEAD
     margin-top: 0%;
     border: solid 1px black;
+=======
+>>>>>>> 501a8faf0c34a171349ba6ca8afa7a4c29b8a24e
 }
 
 button{
