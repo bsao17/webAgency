@@ -135,6 +135,28 @@ a:visited{
         transform: translateX(-1OO%);
     }
 }
+@-moz-keyframes sliderAccueil{
+    0%{
+        transform: translateX(0%);
+    }
+    33%{
+        transform: translateX(-50%);
+    }
+    66%{
+        transform: translateX(-1OO%);
+    }
+}
+@-webkit-keyframes sliderAccueil{
+    0%{
+        transform: translateX(0%);
+    }
+    33%{
+        transform: translateX(-50%);
+    }
+    66%{
+        transform: translateX(-1OO%);
+    }
+}
 
 #texteAccueil{
     position: absolute;
