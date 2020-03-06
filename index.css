@@ -65,7 +65,7 @@ a:visited{
 .navigation li{
     list-style: none;
     display: inline-block;
-    padding: 37px 10px 37px 10px;
+    padding: 38px 10px 38px 10px;
     max-height: 100px;
 }
 .navigation li:hover{
