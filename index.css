@@ -25,6 +25,8 @@
 
 body{
     margin: 0%;
+    padding: 0px;
+    width: 100%;
     
 }
 #bloc_page{
@@ -34,44 +36,48 @@ body{
     font-family: 'robotomedium','robotobold',Arial, sans-serif;
     font-size: 0.9em;
     color: grey;
+    box-sizing: border-box;
 }
 a{
-    text-decoration: none
+    text-decoration: none;
+    color: grey;
 }
 a:visited{
     color: grey;
 }
-#banniere{
+.banniere{
     display: flex;
-    flex-wrap: wrap;
     position: fixed;
-    width: 100%;
-    height: auto;
-    justify-content: space-around;
+    min-width: 100%;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
+    height: 100px;
     z-index: 1;
 }
-
-#logo{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
-    
-}
-#navi{
+.logo{
     display: flex;
-    flex-direction: row;
-    max-width: 50%;
-    margin: auto;
-    font-size: 1.2em;
+    margin-left: 15%
 }
-#accueil{
+.navigation{
+    padding: 0px 10%;
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    padding: 37px 10px 37px 10px;
+    max-height: 100px;
+}
+.navigation li:hover{
+    border-top: solid 3px aqua;
+    
+}
+/*#accueil{
     padding: 40px 10px 40px 10px;
 }
 #accueil:hover{
     border-top: solid 2px aqua;
-}
+}*/
 #services{
     padding: 40px 10px 40px 10px;
 }
@@ -208,6 +214,9 @@ button{
 #texteAccueil h1 span{
     color:rgb(50, 143, 250);
 }
+.spaceSection{
+    min-height: 100px;
+}
 #nosServices h1{
     text-align: center;
     font-size: 3em;
@@ -215,13 +224,14 @@ button{
     font-family: 'robotobold',Arial, sans-serif;
     margin: 15px 0px 15px 0px;
 }
-
-#nosServices p{
-    text-align: center;
-    margin: 30px 200px 15px 200px;
-}
 #underlineDecoration{
     width: 10%;
     margin: auto;
     border: solid black 1px;
 }
+#nosServices p{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+
