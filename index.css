@@ -72,30 +72,6 @@ a:visited{
     border-top: solid 3px aqua;
     
 }
-/*#accueil{
-    padding: 40px 10px 40px 10px;
-}
-#accueil:hover{
-    border-top: solid 2px aqua;
-}*/
-#services{
-    padding: 40px 10px 40px 10px;
-}
-#services:hover{
-    border-top: solid 2px aqua;
-}
-#portofolio{
-    padding: 40px 10px 40px 10px;
-}
-#portofolio:hover{
-    border-top: solid 2px aqua;
-}
-#contact{
-    padding: 40px 10px 40px 10px;
-}
-#contact:hover{
-    border-top: solid 2px aqua;
-}
 #corpsAccueil{
     display: flex;
     flex-direction: column;
