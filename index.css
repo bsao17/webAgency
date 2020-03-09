@@ -69,7 +69,8 @@ a:visited{
     max-height: 100px;
 }
 .navigation li:hover{
-    border-top: solid 3px aqua;
+    padding-top: 35px;
+    border-top: solid 4px aqua;
     
 }
 #corpsAccueil{
