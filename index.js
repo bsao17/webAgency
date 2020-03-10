@@ -1,8 +1,2 @@
-
-function moveImageAccueil(){
-    
-}
-
-document.getElementsByClassName(chevron){
-    
-}
+let directionRight = document.getElementById(right);
+let directionLeft = document.getElementById(left);
