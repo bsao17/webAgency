@@ -166,6 +166,30 @@ a:visited{
         transform: translateX(-1OO%);
     }
 }
+.chevron{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 110px;
+    
+}
+
+.fas{
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.685);
+}
+#left{
+    padding: 20px 20px 20px 0px;
+    border-radius: 0px 40px 40px 0px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+#right{
+    padding: 20px 0px 20px 20px;
+    border-radius: 30px 0px 0px 30px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
 
 #texteAccueil{
     position: absolute;
@@ -182,6 +206,7 @@ button{
     position: absolute;
     background-color: rgb(50, 143, 250);
     border-color: rgb(50, 143, 250) ;
+    border-radius: 5%;
     height: 40px;
     color: white;
     font-family: 'robotobold',Arial, sans-serif;
