@@ -177,29 +177,35 @@ a:visited{
 
 .fas{
     font-size: 1.2em;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(255, 255, 255, 0.767);
 }
 #left{
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px 5px;
     border-radius: 0px 40px 40px 0px;
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.250);
 }
 #right{
-    padding: 20px 0px 20px 20px;
+    padding: 20px 5px 20px 20px;
     border-radius: 30px 0px 0px 30px;
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.250);
 }
 
 
 #texteAccueil{
     position: absolute;
     margin-left: 200px;
+    
     color: white;
     font-size: 1.4em;
     font-family: 'robotobold';
 }
+#texteAccueil h1{
+    margin-bottom: 0px;
+}
 #texteAccueil p{
     font-size: 0.7em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 button{
@@ -207,11 +213,12 @@ button{
     background-color: rgb(50, 143, 250);
     border-color: rgb(50, 143, 250) ;
     border-radius: 5%;
-    height: 40px;
+    width: 130px;
+    height: 45px;
     color: white;
     font-family: 'robotobold',Arial, sans-serif;
-    font-size: 1em;
-    margin: 250px 0px 0px 200px
+    font-size: 1.3em;
+    margin: 210px 0px 0px 200px
 }
 #texteAccueil h1 span{
     color:rgb(50, 143, 250);
