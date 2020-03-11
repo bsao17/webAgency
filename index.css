@@ -272,8 +272,20 @@ button{
     border: solid black 1px;
 }
 #UX{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border: solid black 1px;
     margin-top: 100px; 
+}
+#UX p{
+    
+}
+#UX i{
+    color: rgb(50, 143, 250);
+    font-size: 40px;
+    padding: 10px;
+
 }
 
 
