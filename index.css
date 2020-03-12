@@ -35,15 +35,15 @@ body{
     flex-wrap: wrap;
     font-family: robotomedium,'robotobold',Arial, sans-serif;
     font-size: 0.9em;
-    color: rgb(95, 95, 95);
+    color: rgba(59, 59, 59, 0.800);
     box-sizing: border-box;
 }
 a{
     text-decoration: none;
-    color: rgb(95, 95, 95);
+    color: rgba(59, 59, 59, 0.800);
 }
 a:visited{
-    color: rgb(95, 95, 95);
+    color: rgba(59, 59, 59, 0.800);
 }
 .banniere{
     display: flex;
@@ -272,30 +272,69 @@ button{
 }
 .corpService{
     display: flex;
-    border: solid black 1px;
     padding-top: 50px;
+    padding-right: 0px;
 }
 .imageService{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    border: solid black 1px;
+    width: 80%;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-top: 20px;
 }
 #UX{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid black 1px;
-    margin-top: 100px; 
-}
-#UX p{
-    
-}
-#UX i{
-    color: rgb(50, 143, 250);
-    font-size: 40px;
-    padding: 10px;
+    margin-top: 100px;
+    padding-left: 30px; 
 }
 
+#UX i{
+    position: absolute;
+    color: rgb(50, 143, 250);
+    font-size: 2.5em;
+    padding: 13px;
+    margin: 5px;
+
+}
+#backRoundLogo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: solid rgba(128, 128, 128, 0.600) 1px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+}
+#littleCircle{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(50, 143, 250);
+    margin: 25px 0px 50px 60px;
+    border: solid white 5px;
+    
+}
+#texteUX{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+#texteUX h2{
+    margin: 0px;
+    font-family: 'robotobold';
+    color: black;
+}
+#texteUX p{
+    text-align: justify;
+    margin: 0px 100px 10px 0px;
+    font-size: 1.2em;
+    min-height: 30px;
+    
+}
 
