@@ -35,15 +35,15 @@ body{
     flex-wrap: wrap;
     font-family: robotomedium,'robotobold',Arial, sans-serif;
     font-size: 0.9em;
-    color: grey;
+    color: rgb(95, 95, 95);
     box-sizing: border-box;
 }
 a{
     text-decoration: none;
-    color: grey;
+    color: rgb(95, 95, 95);
 }
 a:visited{
-    color: grey;
+    color: rgb(95, 95, 95);
 }
 .banniere{
     display: flex;
@@ -60,17 +60,19 @@ a:visited{
     margin-left: 15%
 }
 .navigation{
-    padding: 0px 10%;
+    margin-right: 20px;
+    padding: 0px 10% 0px 0px;
 }
 .navigation li{
     list-style: none;
     display: inline-block;
-    padding: 38px 10px 38px 10px;
+    padding: 39px 10px 38px 10px;
     max-height: 100px;
 }
 .navigation li:hover{
+    padding-bottom: 39px;
     padding-top: 36px;
-    border-top: solid 3px aqua;
+    border-top: solid 4px rgb(112, 179, 255);
     
 }
 #corpsAccueil{
@@ -187,35 +189,44 @@ a:visited{
 }
 #texteAccueil{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
     margin-left: 200px;
+    padding: 0px;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.35em;
     font-family: 'robotobold';
 }
 #texteAccueil h1{
-    margin-bottom: 0px;
+    margin: -5px 0px -5px 0px;
+    padding: 0px;
 }
 #texteAccueil p{
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 button{
     position: absolute;
-    background-color: rgb(50, 143, 250);
-    border-color: rgb(50, 143, 250) ;
+    background-color: rgb(112, 179, 255);
+    border-right: 0px;
+    border-top: 0px;
+    border-color: rgb(112, 179, 255) ;
     border-radius: 5%;
-    width: 130px;
-    height: 45px;
+    width: 115px;
+    height: 40px;
     color: white;
     font-family: 'robotobold',Arial, sans-serif;
-    font-size: 1.3em;
-    margin: 210px 0px 0px 200px
+    font-size: 1.2em;
+    margin: 200px 0px 0px 200px
 }
 #texteAccueil h1 span{
-    color:rgb(50, 143, 250);
+    color:rgb(112, 179, 255);
+    margin: -5px 0px -5px 0px;
+    padding: 0px;
 }
-.spaceSection{
+#spaceSection{
     min-height: 100px;
 }
 #nosServices h1{
@@ -285,7 +296,6 @@ button{
     color: rgb(50, 143, 250);
     font-size: 40px;
     padding: 10px;
-
 }
 
 
