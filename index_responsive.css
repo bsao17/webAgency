@@ -66,7 +66,7 @@ a:visited{
     height: 100%;
     margin: auto;
 }
-.navigation li:hover{
+.navigation li:focus{
     border-top: solid 3px aqua;
     padding-top: 10px;
     

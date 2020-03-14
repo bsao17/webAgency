@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'robotomedium';
-    src: url('roboto_medium/Roboto-Medium-webfont.eot');
-    src: url('roboto_medium/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('font/roboto_medium/Roboto-Medium-webfont.eot');
+    src: url('/fontroboto_medium/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
 
-         url('roboto_medium/Roboto-Medium-webfont.woff') format('woff'),
-         url('roboto_medium/Roboto-Medium-webfont.ttf') format('truetype'),
-         url('roboto_medium/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+         url('font/roboto_medium/Roboto-Medium-webfont.woff') format('woff'),
+         url('font/roboto_medium/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('font/roboto_medium/Roboto-Medium-webfont.svg#robotomedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotobold';
-    src: url('/roboto_bold/Roboto-Bold-webfont.eot');
-    src: url('/roboto_bold/Roboto-Bold-webfont.svg') format('embedded-opentype'),
+    src: url('font/roboto_bold/Roboto-Bold-webfont.eot');
+    src: url('font/roboto_bold/Roboto-Bold-webfont.svg') format('embedded-opentype'),
 
-         url('roboto_bold/Roboto-Bold-webfont.woff') format('woff'),
-         url('roboto_bold/Roboto-Bold-webfont.ttf') format('truetype'),
-         url('roboto_bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+         url('font/roboto_bold/Roboto-Bold-webfont.woff') format('woff'),
+         url('font/roboto_bold/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('font/roboto_bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -279,51 +279,54 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    padding-right: 0px;
-    padding-left: 5px;
+    position: absolute;
+    width: 60%;
+    border: solid rgba(128, 128, 128, 0.600) 1px;
+    padding-left: 0px;
     padding-top: 20px;
 }
 #UX{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 100px;
-    padding-left: 30px; 
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 780px;
+    padding-left: 100px;
+    border: solid black 1px; 
 }
-
 #UX i{
     position: absolute;
     color: rgb(50, 143, 250);
     font-size: 2.5em;
-    padding: 13px;
+    padding: 20px;
     margin: 5px;
+    border: solid black 1px; 
 
 }
 #backRoundLogo{
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border: solid rgba(128, 128, 128, 0.600) 1px;
     border-radius: 50%;
-    margin-bottom: 30px;
+    
 
 }
 #littleCircle{
     position: relative;
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     background-color: rgb(50, 143, 250);
-    margin: 25px 0px 50px 60px;
+    margin: 30px 0px 200px 70px;
     border: solid white 5px;
     
 }
 #texteUX{
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    
+    margin: 0px 0px 0px 10px;
+    border: solid black 1px;  
 }
 #texteUX h2{
     margin: 0px;
@@ -332,9 +335,66 @@ button{
 }
 #texteUX p{
     text-align: justify;
-    margin: 0px 100px 10px 0px;
-    font-size: 1.2em;
+    margin: 10px 100px 0px 0px;
+    font-size: 1.3em;
     min-height: 30px;
+    border: solid rgba(128, 128, 128, 0.600) 1px;
+}
+
+
+
+#UI{
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 780px;
+    padding-left: 100px;
+    border: solid black 1px; 
+}
+#UI i{
+    position: absolute;
+    color: rgb(50, 143, 250);
+    font-size: 2.5em;
+    padding: 20px;
+    margin: 5px;
+
+}
+#backRoundLogoUI{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: solid rgba(128, 128, 128, 0.600) 1px;
+    border-radius: 50%;
     
+
+}
+#littleCircleUI{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(50, 143, 250);
+    margin: 30px 0px 200px 70px;
+    border: solid white 5px;
+    
+}
+#texteUI{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+    
+}
+#texteUI h2{
+    margin: 0px;
+    font-family: 'robotobold';
+    color: black;
+}
+#texteUI p{
+    text-align: justify;
+    margin: 10px 100px 0px 0px;
+    font-size: 1.3em;
+    min-height: 30px;
+    border: solid rgba(128, 128, 128, 0.600) 1px;
 }
 
