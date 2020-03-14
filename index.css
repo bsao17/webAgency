@@ -229,6 +229,9 @@ button{
 #spaceSection{
     min-height: 100px;
 }
+
+/*Page Nos Services*/
+
 #nosServices h1{
     text-align: center;
     font-size: 3em;
@@ -259,13 +262,13 @@ button{
     background-color: rgb(50, 143, 250);  
 }
 #nosServices p{
+    font-size: 1.2em;
     text-align: center;
     margin: 10px 0px 10px 0px;
 }
 .sloganServices{
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 .sloganServices:nth-child(1){
     padding-top: 15px;
@@ -280,34 +283,38 @@ button{
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 60%;
+    width: 50%;
+    margin: 0px 0px 0px 100px;
     border: solid rgba(128, 128, 128, 0.600) 1px;
     padding-left: 0px;
     padding-top: 20px;
 }
+
+/*Bannière UX avec logo*/
+
 #UX{
     display: flex;
+    justify-content: center;
     align-items: flex-start;
     height: 100px;
     margin-top: 80px;
-    margin-left: 780px;
+    margin-left: 50%;
     padding-left: 100px;
     border: solid black 1px; 
 }
 #UX i{
     position: absolute;
-    color: rgb(50, 143, 250);
+    color: rgb(50, 143, 250, 0.900);
     font-size: 2.5em;
     padding: 20px;
     margin: 5px;
-    border: solid black 1px; 
 
 }
 #backRoundLogo{
     position: absolute;
     width: 80px;
     height: 80px;
-    border: solid rgba(128, 128, 128, 0.600) 1px;
+    border: solid rgba(128, 128, 128, 0.500) 1px;
     border-radius: 50%;
     
 
@@ -325,8 +332,7 @@ button{
 #texteUX{
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 10px;
-    border: solid black 1px;  
+    margin: 0px 0px 0px 10px;  
 }
 #texteUX h2{
     margin: 0px;
@@ -335,26 +341,31 @@ button{
 }
 #texteUX p{
     text-align: justify;
-    margin: 10px 100px 0px 0px;
-    font-size: 1.3em;
-    min-height: 30px;
-    border: solid rgba(128, 128, 128, 0.600) 1px;
+    margin: 10px 200px 0px 0px;
+    font-size: 1.2em;
+    height: 50px;
+    overflow: hidden;
 }
 
+/*Bannière UI avec logo*/
 
-
+.gridService #UI{
+    align-items: right;
+    border: solid black 1px;
+}
 #UI{
     display: flex;
     align-items: flex-start;
     height: 100px;
-    margin-top: 80px;
-    margin-left: 780px;
+    margin-top: 30px;
+    margin-left: 50%;
+    width: 50%;
     padding-left: 100px;
     border: solid black 1px; 
 }
 #UI i{
     position: absolute;
-    color: rgb(50, 143, 250);
+    color: rgb(50, 143, 250, 0.900);
     font-size: 2.5em;
     padding: 20px;
     margin: 5px;
@@ -364,10 +375,8 @@ button{
     position: absolute;
     width: 80px;
     height: 80px;
-    border: solid rgba(128, 128, 128, 0.600) 1px;
+    border: solid rgba(128, 128, 128, 0.500) 1px;
     border-radius: 50%;
-    
-
 }
 #littleCircleUI{
     position: relative;
@@ -392,9 +401,70 @@ button{
 }
 #texteUI p{
     text-align: justify;
-    margin: 10px 100px 0px 0px;
-    font-size: 1.3em;
-    min-height: 30px;
-    border: solid rgba(128, 128, 128, 0.600) 1px;
+    margin: 10px 200px 0px 0px;
+    font-size: 1.2em;
+    height: 50px;
+    overflow: hidden;
+}
+
+/*Bannière SEO avec logo*/
+
+#SEO{
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 50%;
+    padding-left: 100px;
+    border: solid black 1px; 
+}
+#SEO i{
+    position: absolute;
+    color: rgba(50, 143, 250, 0.900);
+    font-size: 2.5em;
+    padding: 20px;
+    margin: 5px;
+
+}
+#backRoundLogoSEO{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: solid rgb(128, 128, 128, 0.500) 1px;
+    border-radius: 50%;
+    
+
+}
+#littleCircleSEO{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(50, 143, 250);
+    margin: 30px 0px 200px 70px;
+    border: solid white 5px;
+    
+}
+#texteSEO{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+    
+}
+#texteSEO h2{
+    margin: 0px;
+    font-family: 'robotobold';
+    color: black;
+}
+#texteSEO p{
+    text-align: justify;
+    margin: 10px 200px 0px 0px;
+    font-size: 1.2em;
+    height: 50px;
+    overflow: hidden;
+}
+
+#spaceSection2{
+    min-height: 100px;
 }
 
