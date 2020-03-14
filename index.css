@@ -35,7 +35,7 @@ body{
     flex-wrap: wrap;
     font-family: robotomedium,'robotobold',Arial, sans-serif;
     font-size: 0.9em;
-    color: rgba(59, 59, 59, 0.800);
+    color: rgba(94, 94, 94, 0.8);
     box-sizing: border-box;
 }
 a{
@@ -245,21 +245,21 @@ button{
     align-items: center;
 }
 #underlineLeft{
-    width: 5%;
+    width: 3%;
     height: 1px;
-    background-color: rgba(128, 128, 128, 0.600);
+    background-color: rgba(128, 128, 128, 0.300);
 }
 #underlineRight{
-    width: 5%;
+    width: 3%;
     height: 1px;
-    background-color: rgba(128, 128, 128, 0.600);
+    background-color: rgba(128, 128, 128, 0.300);
 }
 #point{
     width: 15px;
     height: 15px;
     border: solid white 7px;
     border-radius: 50%;
-    background-color: rgb(50, 143, 250);  
+    background-color: rgba(102, 172, 252, 0.9);  
 }
 #nosServices p{
     font-size: 1.2em;
@@ -285,7 +285,6 @@ button{
     position: absolute;
     width: 50%;
     margin: 0px 0px 0px 100px;
-    border: solid rgba(128, 128, 128, 0.600) 1px;
     padding-left: 0px;
     padding-top: 20px;
 }
@@ -294,27 +293,27 @@ button{
 
 #UX{
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     height: 100px;
-    margin-top: 80px;
-    margin-left: 50%;
-    padding-left: 100px;
-    border: solid black 1px; 
+    margin-top: 100px;
+    margin-left: 45%;
+    width: 50%;
+    padding-left: 110px;
+     
 }
 #UX i{
     position: absolute;
-    color: rgb(50, 143, 250, 0.900);
-    font-size: 2.5em;
-    padding: 20px;
+    color: rgba(102, 172, 252, 0.9);
+    font-size: 2.2em;
+    padding: 15px;
     margin: 5px;
 
 }
 #backRoundLogo{
     position: absolute;
-    width: 80px;
-    height: 80px;
-    border: solid rgba(128, 128, 128, 0.500) 1px;
+    width: 70px;
+    height: 70px;
+    border: solid rgba(128, 128, 128, 0.300) 1px;
     border-radius: 50%;
     
 
@@ -324,58 +323,57 @@ button{
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: rgb(50, 143, 250);
-    margin: 30px 0px 200px 70px;
+    background-color: rgba(102, 172, 252, 0.9);
+    margin: 25px 0px 200px 60px;
     border: solid white 5px;
     
 }
 #texteUX{
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 10px;  
+    margin: 0px 0px 0px 10px;
+    font-size: 0.9em;  
 }
 #texteUX h2{
     margin: 0px;
     font-family: 'robotobold';
-    color: black;
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, 0.750);
 }
 #texteUX p{
     text-align: justify;
     margin: 10px 200px 0px 0px;
     font-size: 1.2em;
-    height: 50px;
+    height: 45px;
+    width: 60%;
     overflow: hidden;
 }
 
 /*Bannière UI avec logo*/
 
-.gridService #UI{
-    align-items: right;
-    border: solid black 1px;
-}
+
 #UI{
     display: flex;
     align-items: flex-start;
     height: 100px;
-    margin-top: 30px;
-    margin-left: 50%;
+    margin-top: 20px;
+    margin-left: 45%;
     width: 50%;
-    padding-left: 100px;
-    border: solid black 1px; 
+    padding-left: 110px;
+     
 }
 #UI i{
     position: absolute;
-    color: rgb(50, 143, 250, 0.900);
-    font-size: 2.5em;
-    padding: 20px;
+    color: rgba(102, 172, 252, 0.9);
+    font-size: 2.2em;
+    padding: 15px;
     margin: 5px;
-
 }
 #backRoundLogoUI{
     position: absolute;
-    width: 80px;
-    height: 80px;
-    border: solid rgba(128, 128, 128, 0.500) 1px;
+    width: 70px;
+    height: 70px;
+    border: solid rgba(128, 128, 128, 0.300) 1px;
     border-radius: 50%;
 }
 #littleCircleUI{
@@ -383,54 +381,55 @@ button{
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: rgb(50, 143, 250);
-    margin: 30px 0px 200px 70px;
-    border: solid white 5px;
-    
+    background-color: rgba(102, 172, 252, 0.9);
+    margin: 25px 0px 200px 60px;
+    border: solid white 5px;   
 }
 #texteUI{
     display: flex;
     flex-direction: column;
     margin: 0px 0px 0px 10px;
-    
+    font-size: 0.9em;  
 }
 #texteUI h2{
     margin: 0px;
     font-family: 'robotobold';
-    color: black;
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, 0.750);
 }
 #texteUI p{
     text-align: justify;
     margin: 10px 200px 0px 0px;
     font-size: 1.2em;
-    height: 50px;
+    height: 45px;
+    width: 60%;
     overflow: hidden;
 }
-
 /*Bannière SEO avec logo*/
 
 #SEO{
     display: flex;
     align-items: flex-start;
     height: 100px;
-    margin-top: 30px;
-    margin-left: 50%;
-    padding-left: 100px;
-    border: solid black 1px; 
+    margin-top: 20px;
+    margin-left: 45%;
+    width: 50%;
+    padding-left: 110px;
+     
 }
 #SEO i{
     position: absolute;
-    color: rgba(50, 143, 250, 0.900);
-    font-size: 2.5em;
-    padding: 20px;
+    color: rgba(102, 172, 252, 0.9);
+    font-size: 2em;
+    padding: 15px;
     margin: 5px;
 
 }
 #backRoundLogoSEO{
     position: absolute;
-    width: 80px;
-    height: 80px;
-    border: solid rgb(128, 128, 128, 0.500) 1px;
+    width: 70px;
+    height: 70px;
+    border: solid rgb(128, 128, 128, 0.300) 1px;
     border-radius: 50%;
     
 
@@ -440,8 +439,8 @@ button{
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: rgb(50, 143, 250);
-    margin: 30px 0px 200px 70px;
+    background-color: rgba(102, 172, 252, 0.9);
+    margin: 25px 0px 200px 60px;
     border: solid white 5px;
     
 }
@@ -449,18 +448,21 @@ button{
     display: flex;
     flex-direction: column;
     margin: 0px 0px 0px 10px;
+    font-size: 0.9em;
     
 }
 #texteSEO h2{
     margin: 0px;
     font-family: 'robotobold';
-    color: black;
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, 0.750);
 }
 #texteSEO p{
     text-align: justify;
     margin: 10px 200px 0px 0px;
     font-size: 1.2em;
-    height: 50px;
+    height: 45px;
+    width: 60%;
     overflow: hidden;
 }
 
