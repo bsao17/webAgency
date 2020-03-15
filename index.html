@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9be2ad14ed.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width:1280px)" href="index_responsive.css">
     <script src="index.js"></script>
     <title>webAgency</title>
@@ -12,7 +12,9 @@
 
 <body>
     <div id="bloc_page">
-        <header class="banniere"><!--Bannière supérieur fixe-->
+
+<!--Bannière supérieur fixe-->
+        <header class="banniere">
             <section class="logo">
                 <img src="images/logo.png" alt="logo">
             </section>
@@ -20,14 +22,14 @@
                 <ul>
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#spaceSection">Services</a></li>
-                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#spaceSection2">Portofolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
     
-    
-        <section id="corpsAccueil"><!--Corp de la page accueil-->
+<!--page accueil-->
+        <section id="corpsAccueil">
             <div id="imageAccueil">
                 <img class="slide" src="images/slider/bg1.jpg" alt="image d'accueil" width="100%">
                 <img class="slide" src="images/slider/bg2.jpg" alt="image d'accueil" width="100%">
@@ -43,18 +45,21 @@
                 <div id="right"><i class="fas fa-chevron-right"></i></div>
             </div>
         </section>
+
+
             <div id="spaceSection">
-                <!--Espace entre chaque page-->
+<!--Espace entre chaque page-->
             </div>
 
-        <section id="nosServices"><!--Page nos services-->
-            <h1>NOS SERVICES</h1>
-                <div class="underLineDecoration">
+<!--Page nos services-->
+        <section id="nosServices">
+            <h1>NOS SERVICES</h1><!--Titre Nos servives-->
+                <div class="underLineDecoration"><!--Ligne decorative sous titre-->
                     <div id="underlineLeft"></div>
                     <div id="point"></div>
                     <div id="underlineRight"></div>
                 </div>
-            <div class="sloganServices">
+            <div class="sloganServices"><!--descriptif sous titre-->
                 <p class="sloganServices">Lorem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut </p>
                 <p class="sloganServices">et dolore magna aliqua. UT enim ad minim veniam</p>
             </div>
@@ -62,7 +67,11 @@
                 <div class="imageService">
                     <img src="images/main-feature.png" alt="">
                 </div>
-                <div class="gridService">
+
+                
+<!--texte et logo UX - UI - SEO-->
+                <section class="gridService">
+
                     <div id="UX">
                         <div id="logoUX">
                             <i class="fas fa-chart-line"></i>
@@ -71,14 +80,40 @@
                         </div>
                         <div id="texteUX">
                             <h2>UX design</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil corrupti deleniti quasi molestiae assumenda optio,</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quia, sunt ratione corporis ea placeat soluta similique, animi ducimus commodi voluptatum minima id natus velit autem quos unde excepturi eum.</p>
                         </div>
-                        
                     </div>
 
-                </div> 
+                    <div id="UI">
+                        <div id="logoUI">
+                            <i class="fas fa-cubes"></i>
+                            <div id="backRoundLogoUI"></div>
+                            <div id="littleCircleUI"></div>
+                        </div>
+                        <div id="texteUI">
+                            <h2>UI design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed magnam laudantium nisi ratione doloribus voluptatem cupiditate hic esse architecto blanditiis maxime, error et amet quae quibusdam praesentium adipisci quam odit!</p>
+                        </div>
+                    </div>
+
+                    <div id="SEO">
+                        <div id="logoSEO">
+                            <i class="fas fa-chart-pie"></i>
+                            <div id="backRoundLogoSEO"></div>
+                            <div id="littleCircleSEO"></div>
+                        </div>
+                        <div id="texteSEO">
+                            <h2>SEO</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed magnam laudantium nisi ratione doloribus voluptatem cupiditate hic esse architecto blanditiis maxime, error et amet quae quibusdam praesentium adipisci quam odit!</p>
+                        </div>
+                    </div>
+
+                </section> 
             </div>
-        </section>  
+        </section>
+            <div id="spaceSection2">
+<!--Espace entre chaque page-->
+            </div>  
     </div>  
 </body>
 </html>
