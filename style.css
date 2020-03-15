@@ -87,6 +87,7 @@ a:visited{
     position: relative;
     display: flex;
     width: 200%;
+    height: auto;
     margin-top: 106px;
     animation-name: sliderAccueil;
     animation-duration: 20s;
