@@ -1,3 +1,4 @@
+/*Paramètres globaux*/
 @font-face {
     font-family: 'robotomedium';
     src: url('font/roboto_medium/Roboto-Medium-webfont.eot');
@@ -45,6 +46,9 @@ a{
 a:visited{
     color: rgba(59, 59, 59, 0.800);
 }
+
+/*Bannière supérieur*/
+
 .banniere{
     display: flex;
     position: fixed;
@@ -75,6 +79,9 @@ a:visited{
     border-top: solid 4px rgb(112, 179, 255);
     
 }
+
+/*Page d'Accueil*/
+
 #corpsAccueil{
     display: flex;
     flex-direction: column;
@@ -226,7 +233,10 @@ button{
     margin: -5px 0px -5px 0px;
     padding: 0px;
 }
-#spaceSection{
+
+/* Espace entre chaque page*/
+
+#spaceSection, #spaceSection2{
     min-height: 100px;
 }
 
@@ -320,8 +330,8 @@ button{
 }
 #littleCircle{
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
@@ -468,5 +478,49 @@ button{
 
 #spaceSection2{
     min-height: 100px;
+}
+
+/* Page Nos Projets*/
+
+#nosProjets h1{
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: 'robotobold',Arial, sans-serif;
+    margin: 15px 0px 15px 0px;
+}
+.underLineDecorationProjets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#underlineLeftProjets{
+    width: 3%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.300);
+}
+#underlineRightProjets{
+    width: 3%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.300);
+}
+#pointProjets{
+    width: 15px;
+    height: 15px;
+    border: solid white 7px;
+    border-radius: 50%;
+    background-color: rgba(102, 172, 252, 0.9);  
+}
+#nosProjets p{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+.sloganProjets{
+    margin: 0px;
+    padding: 0px;   
+}
+.sloganProjets:nth-child(1){
+    padding-top: 15px;
 }
 
