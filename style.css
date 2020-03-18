@@ -27,14 +27,13 @@
 body{
     margin: 0%;
     padding: 0px;
-    width: 100%;
-    
+    width: 100%; 
 }
 #bloc_page{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-family: robotomedium,'robotobold',Arial, sans-serif;
+    font-family: 'robotomedium','robotobold',Arial, sans-serif;
     font-size: 0.9em;
     color: rgba(94, 94, 94, 0.8);
     box-sizing: border-box;
@@ -58,20 +57,24 @@ a:visited{
     background-color: white;
     height: 100px;
     z-index: 1;
+    
 }
 .logo{
     display: flex;
     margin-left: 15%
+    
 }
 .navigation{
     margin-right: 20px;
     padding: 0px 10% 0px 0px;
+    
 }
 .navigation li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     padding: 39px 10px 38px 10px;
     max-height: 100px;
+    
 }
 .navigation li:hover{
     padding-bottom: 39px;
@@ -93,8 +96,8 @@ a:visited{
 #imageAccueil{
     position: relative;
     display: flex;
-    width: 200%;
-    margin-top: 106px;
+    width: 100%;
+    margin: 106px 0px 0px 0px;
     animation-name: sliderAccueil;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -178,11 +181,13 @@ a:visited{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 110px;  
+    margin-top: 110px;
+    
 }
 .fas{
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.767);
+    
 }
 #left{
     padding: 20px 20px 20px 5px;
@@ -204,17 +209,19 @@ a:visited{
     color: white;
     font-size: 1.35em;
     font-family: 'robotobold';
+    
 }
 #texteAccueil h1{
     margin: -5px 0px -5px 0px;
     padding: 0px;
+    
 }
 #texteAccueil p{
     font-size: 0.6em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-button{
+#boutons{
     position: absolute;
     background-color: rgb(112, 179, 255);
     border-right: 0px;
@@ -307,7 +314,7 @@ button{
     height: 100px;
     margin-top: 100px;
     margin-left: 45%;
-    width: 50%;
+    width: 45%;
     padding-left: 110px;
      
 }
@@ -368,7 +375,7 @@ button{
     height: 100px;
     margin-top: 20px;
     margin-left: 45%;
-    width: 50%;
+    width: 45%;
     padding-left: 110px;
      
 }
@@ -388,8 +395,8 @@ button{
 }
 #littleCircleUI{
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
@@ -423,7 +430,7 @@ button{
     height: 100px;
     margin-top: 20px;
     margin-left: 45%;
-    width: 50%;
+    width: 45%;
     padding-left: 110px;
      
 }
@@ -446,8 +453,8 @@ button{
 }
 #littleCircleSEO{
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
@@ -524,3 +531,42 @@ button{
     padding-top: 15px;
 }
 
+/*Bouton de navigation Nos Projets*/
+
+.navigationProjet{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 100px 0px;
+    
+}
+#oneButtonProjet{
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgba(128, 128, 128, 0.650);
+    font-family: 'robotobold';
+}
+#twoButtonProjet{
+    margin: 0px 0px 0px 0px;
+    width: 100px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.650);
+    font-family: 'robotobold';
+}
+#threeButtonProjet{
+    margin: 0px 0px 0px 0px;
+    width: 100px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.650);
+    font-family: 'robotobold';
+}
+#fourButtonProjet{
+    margin: 0px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.650);
+    font-family: 'robotobold';
+}
