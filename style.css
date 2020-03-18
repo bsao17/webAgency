@@ -546,6 +546,8 @@ a:visited{
     border: none;
     border-radius: 5px 0px 0px 5px;
     background-color: rgba(128, 128, 128, 0.650);
+    color: rgb(59, 59, 59);
+    font-size: 1.2em;
     font-family: 'robotobold';
 }
 #twoButtonProjet{
@@ -553,6 +555,8 @@ a:visited{
     width: 100px;
     border: none;
     background-color: rgba(128, 128, 128, 0.650);
+    color: rgb(59, 59, 59);
+    font-size: 1.2em;
     font-family: 'robotobold';
 }
 #threeButtonProjet{
@@ -560,6 +564,8 @@ a:visited{
     width: 100px;
     border: none;
     background-color: rgba(128, 128, 128, 0.650);
+    color: rgb(59, 59, 59);
+    font-size: 1.2em;
     font-family: 'robotobold';
 }
 #fourButtonProjet{
@@ -568,5 +574,7 @@ a:visited{
     border-radius: 0px 5px 5px 0px;
     width: 100px;
     background-color: rgba(128, 128, 128, 0.650);
+    color: rgb(59, 59, 59);
+    font-size: 1.2em;
     font-family: 'robotobold';
 }
