@@ -538,65 +538,9 @@ a:visited{
     justify-content: center;
     margin: 100px 0px 100px 0px;  
 }
+.navigationProjet button:hover{
+    background-color: blue;
+}
 .navigationProjet i{
     color: blue;
-    font-size: 1.3em;
-    margin-top: 45px;
-    position: absolute;
-}
-#oneButtonProjet{
-    margin: 0px 0px 0px 0px;
-    height: 50px;
-    width: 100px;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-    background-color: rgba(128, 128, 128, 0.650);
-    color: rgb(59, 59, 59);
-    font-size: 1.2em;
-    font-family: 'robotobold';
-}
-#oneButtonProjetIcone{
-    position: absolute;
-    margin: 0px 300px 0px 0px;
-}
-#twoButtonProjet{
-    margin: 0px 0px 0px 0px;
-    width: 100px;
-    border: none;
-    background-color: rgba(128, 128, 128, 0.650);
-    color: rgb(59, 59, 59);
-    font-size: 1.2em;
-    font-family: 'robotobold';
-}
-#twoButtonProjetIcone{
-    position: absolute;
-    margin: 5px 100px 0px 0px;
-    color: red;
-}
-#threeButtonProjet{
-    margin: 0px 0px 0px 0px;
-    width: 100px;
-    border: none;
-    background-color: rgba(128, 128, 128, 0.650);
-    color: rgb(59, 59, 59);
-    font-size: 1.2em;
-    font-family: 'robotobold';
-}
-#threeButtonProjetIcone{
-    position: absolute;
-    margin: 10px -100px 0px 0px;
-}
-#fourButtonProjet{
-    margin: 0px;
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    width: 100px;
-    background-color: rgba(128, 128, 128, 0.650);
-    color: rgb(59, 59, 59);
-    font-size: 1.2em;
-    font-family: 'robotobold';
-}
-#fourButtonProjetIcone{
-    position: absolute;
-    margin: 15px -300px 0px 0px;
 }
