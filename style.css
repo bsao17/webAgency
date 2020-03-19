@@ -533,14 +533,14 @@ a:visited{
 
 /*Bouton de navigation Nos Projets*/
 
-.navigationProjet{
+#navigationProjet{
     display: flex;
     justify-content: center;
     margin: 100px 0px 100px 0px;  
 }
-.navigationProjet button:hover{
+#navigationProjet button:hover{
     background-color: blue;
 }
-.navigationProjet i{
+#navigationProjet i{
     color: blue;
 }
