@@ -2,12 +2,17 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.navNosProjets{
+.navNosProjets button{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid black 1px;
 }
-#bouton{
+
+#bouton1{
     position: absolute;
-    left: 0px;
+    left: 200px;
     border-bottom: solid blue 4px;
     margin: 0px;
 }
@@ -20,14 +25,14 @@ body{
 
 #bouton2{
     position: absolute;
-    left: 0px;
+    left: 200px;
     border-bottom: solid blue 4px;
     margin: 0px ;
     opacity: 0;
 }
 #bouton2:hover{
     position: absolute;
-    left: 0px;
+    left: 200px;
     border-bottom: solid blue 4px;
     margin: 0px ;
     opacity: 1;

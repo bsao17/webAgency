@@ -184,7 +184,7 @@ a:visited{
     margin-top: 110px;
     
 }
-.fas{
+#left i, #right i{
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.767);
     
@@ -535,24 +535,18 @@ a:visited{
 
 .navNosProjets{
     display: flex;
-    width: 100%;
-    margin: 100px 50%;
 }
-
 #bouton{
     position: absolute;
-    top: 50px;
     left: 0px;
     border-bottom: solid blue 4px;
     margin: 0px;
-    
 }
-#arrow{
+#icone{
+    display: inline-block;
     position: absolute;
-    font-size: 1em;
-    left: 50px;
-    background-color: blue;
-    border: solid black 2px;
+    top: 15px;
+    color: blue;
 }
 
 #bouton2{
@@ -575,14 +569,14 @@ a:visited{
 #bouton3{
     position: absolute;
     left: 100px;
+    border-bottom: solid blue 4px;
     margin: 0px;
 }
-#arrow2{
-    display: inline;
+#icone{
+    display: inline-block;
     position: absolute;
     top: 15px;
-    color: rgb(0, 0, 255);
-    border: solid black 2px;
+    color: blue;
 }
 
 #bouton4{
@@ -598,7 +592,4 @@ a:visited{
     border-bottom: solid blue 4px;
     margin: 0px ;
     opacity: 1;
-}
-.gridProjet{
-    height: 100px;
 }
