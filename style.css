@@ -533,14 +533,72 @@ a:visited{
 
 /*Bouton de navigation Nos Projets*/
 
-#navigationProjet{
+.navNosProjets{
     display: flex;
-    justify-content: center;
-    margin: 100px 0px 100px 0px;  
+    width: 100%;
+    margin: 100px 50%;
 }
-#navigationProjet button:hover{
+
+#bouton{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    border-bottom: solid blue 4px;
+    margin: 0px;
+    
+}
+#arrow{
+    position: absolute;
+    font-size: 1em;
+    left: 50px;
     background-color: blue;
+    border: solid black 2px;
 }
-#navigationProjet i{
-    color: blue;
+
+#bouton2{
+    position: absolute;
+    left: 0px;
+    border-bottom: solid blue 4px;
+    margin: 0px ;
+    opacity: 0;
+}
+#bouton2:hover{
+    position: absolute;
+    left: 0px;
+    border-bottom: solid blue 4px;
+    margin: 0px ;
+    opacity: 1;
+}
+
+
+
+#bouton3{
+    position: absolute;
+    left: 100px;
+    margin: 0px;
+}
+#arrow2{
+    display: inline;
+    position: absolute;
+    top: 15px;
+    color: rgb(0, 0, 255);
+    border: solid black 2px;
+}
+
+#bouton4{
+    position: absolute;
+    left: 100px;
+    border-bottom: solid blue 4px;
+    margin: 0px ;
+    opacity: 0;
+}
+#bouton4:hover{
+    position: absolute;
+    left: 100px;
+    border-bottom: solid blue 4px;
+    margin: 0px ;
+    opacity: 1;
+}
+.gridProjet{
+    height: 100px;
 }
