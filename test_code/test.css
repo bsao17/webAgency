@@ -30,11 +30,13 @@
     opacity: 0;   
 }
 #bouton{
-    border-bottom: solid blue 3px;
+    border-bottom: solid blue 4px;
     margin: 0px;
 }
 #icone{
     display: inline-block;
+    position: absolute;
+    top: 15px;
     color: blue;
 }
 
