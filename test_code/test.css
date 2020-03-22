@@ -1,69 +1,87 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
-.navNosProjets button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: solid black 1px;
-}
-
-#bouton1{
-    position: absolute;
-    left: 200px;
-    border-bottom: solid blue 4px;
-    margin: 0px;
-}
-#icone{
-    display: inline-block;
-    position: absolute;
-    top: 15px;
-    color: blue;
-}
-
-#bouton2{
-    position: absolute;
-    left: 200px;
-    border-bottom: solid blue 4px;
-    margin: 0px ;
-    opacity: 0;
-}
-#bouton2:hover{
-    position: absolute;
-    left: 200px;
-    border-bottom: solid blue 4px;
-    margin: 0px ;
-    opacity: 1;
-}
-
-
-
-#bouton3{
-    position: absolute;
-    left: 100px;
-    border-bottom: solid blue 4px;
-    margin: 0px;
-}
-#icone{
-    display: inline-block;
-    position: absolute;
-    top: 15px;
-    color: blue;
-}
-
-#bouton4{
-    position: absolute;
-    left: 100px;
-    border-bottom: solid blue 4px;
-    margin: 0px ;
-    opacity: 0;
-}
-#bouton4:hover{
-    position: absolute;
-    left: 100px;
-    border-bottom: solid blue 4px;
-    margin: 0px ;
-    opacity: 1;
-}
+.test:hover:after{
+    display:block;
+  }
+  .test:after {
+      top: 43px;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(92, 173, 211, 0);
+      border-top-color: #5cadd3;
+      border-width: 10px;
+      margin-left: -10px;
+    display:none;
+  }
+  
+  #bouton-galerie
+  {
+      margin-top: 60px;
+  }
+  
+  #bouton-galerie ul
+  {
+      margin: 0px;
+      padding:0px;
+      list-style-type: none;
+      width: 356px;
+      height: 40px;
+      background-color: #e5e5e5;
+      border-radius: 3px;
+      margin: 0 auto;
+  }
+  
+  #bouton-galerie li
+  {
+      float: left;
+      width: 89px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      position: relative;
+  }
+  
+  #bouton-galerie li a
+  {
+      display: block;
+      text-decoration: none;
+      color: #64686d;
+  }
+  
+  #bouton-galerie  li :hover
+  {
+      background-color: #5cadd3;
+      border-bottom: 3px solid #468cad;
+      color: white !important;
+  }
+  
+  li:nth-child(5) :hover
+  {
+      border-radius: 0px 4px 4px 0px;
+      /*Permet de mettre un bord arrondi au bouton*/
+  }
+  
+  .active a 
+  {
+      background-color: #5cadd3 !important;
+      border-bottom: 3px solid #468cad;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      color: white !important;
+  }
+  
+  .fleche_bulle 
+  {	position: absolute;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid;
+    margin-left:30px;
+    color:#5cadd3;
+  }
+  
+  
+  
+  
