@@ -489,6 +489,10 @@ a:visited{
 
 /* Page Nos Projets*/
 
+#nosProjets{
+    background-color: rgba(199, 199, 199, 0.3);
+    margin: 0px 100px 0px 100px;
+}
 #nosProjets h1{
     text-align: center;
     font-size: 3em;
@@ -537,7 +541,9 @@ a:visited{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left: -50px;
+    width: 100%;
+    height: 200px;
     
 }
 #navigationNosProjets li{
@@ -547,22 +553,36 @@ a:visited{
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: rgb(172, 172, 172);
+    background-color: rgba(172, 172, 172, 0.527);
 }
 #navigationNosProjets li{
     border-bottom: solid transparent 2px;
+    width: 70px;
 }
 #navigationNosProjets li:hover .fas{
-    margin-top: 60px;
+    margin-top: 56px;
     opacity: 1;
 }
 #navigationNosProjets .bouton:hover{
-    border-bottom: solid blue 2px;
+    border-bottom: solid rgb(33, 137, 255) 3px;
     color: white;
-    background-color: rgb(144, 144, 252);
+    background-color: rgba(102, 172, 252, 0.9);
+    height: 17px;
+}
+.bouton:focus{
+    border-bottom: solid rgb(33, 137, 255) 3px;
+    border-top: none;
+    color: white;
+    background-color: rgba(102, 172, 252, 0.9);
+}
+.bouton:nth-child(1){
+    border-radius: 5px 0px 0px 5px;
+}
+.bouton:nth-child(4){
+    border-radius: 0px 5px 5px 0px;
 }
 .fa-caret-down{
-    color: blue;
+    color: rgb(33, 137, 255);
     opacity: 0;
     font-size: 1.5em;
     position: absolute;
