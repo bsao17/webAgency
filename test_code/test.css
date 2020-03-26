@@ -15,6 +15,15 @@
     background-color: rgb(180, 180, 180);
     color: black;
 }
+#navigationNosProjets li:nth-child(1){
+    border-bottom: solid blue 2px;
+    color: white;
+    background-color: rgb(144, 144, 252);
+}
+#navigationNosProjets li:nth-child(1) .fas{
+    margin-top: 60px;
+    opacity: 1;
+}
 #navigationNosProjets li{
     border-bottom: solid transparent 2px;
 }
