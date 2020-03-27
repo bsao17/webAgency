@@ -551,7 +551,6 @@ a:visited{
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 1em;
     background-color: rgba(172, 172, 172, 0.527);
@@ -563,7 +562,6 @@ a:visited{
 }
 
 #navigationNosProjets li:hover .fas{
-    margin-top:  28px;
     opacity: 1;
 }
 
@@ -574,7 +572,6 @@ a:visited{
     height: 17px;
 }
 #navigationNosProjets li:nth-child(1) .fas{
-    margin-top: 28px;
     opacity: 1;
 }
 #navigationNosProjets .bouton:hover{
@@ -595,7 +592,7 @@ a:visited{
     opacity: 0;
     font-size: 1.5em;
     position: absolute;
-    margin-top: 1.3em;
+    margin-top: 1.25em;
 }
 
 .gridProjet{

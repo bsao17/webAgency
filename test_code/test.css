@@ -9,7 +9,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 1em;
     background-color: rgb(180, 180, 180);
@@ -21,14 +20,12 @@
     background-color: rgb(144, 144, 252);
 }
 #navigationNosProjets li:nth-child(1) .fas{
-    margin-top: 60px;
     opacity: 1;
 }
 #navigationNosProjets li{
     border-bottom: solid transparent 2px;
 }
 #navigationNosProjets li:hover .fas{
-    margin-top: 60px;
     opacity: 1;
 }
 #navigationNosProjets .bouton:hover{
@@ -41,5 +38,6 @@
     opacity: 0;
     font-size: 1.5em;
     position: absolute;
-    margin-top: 1.3em;
+    margin: 1.1em 0px 0px 0px;
 }
+
