@@ -35,3 +35,22 @@
     font-size: initial;
     
 }
+
+.corpService{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imageService{
+    position: relative;
+    margin: auto;
+}
+#UX{
+    margin: auto;
+}
+#UI{
+    margin: auto;
+}
+#SEO{
+    margin: auto;
+}
