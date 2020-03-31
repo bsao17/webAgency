@@ -24,6 +24,7 @@
 
 }
 
+
 body{
     margin: 0%;
     padding: 0px;
@@ -51,7 +52,7 @@ a:visited{
 .banniere{
     display: flex;
     position: fixed;
-    min-width: 100%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: white;
@@ -208,8 +209,7 @@ a:visited{
     padding: 0px;
     color: white;
     font-size: 1.6em;
-    font-family: 'robotobold';
-    
+    font-family: 'robotobold'; 
 }
 #texteAccueil h1{
     margin: -5px 0px -5px 0px;
@@ -605,23 +605,29 @@ a:visited{
 .frameUp, .frameDn{
     width: 300px;
     height: 200px;
-    margin: 10px;
-    
+    margin: 10px; 
+}
+.frameUp span{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+.frameDn span{
+    font-size: 0.8em;
+    font-weight: normal;
 }
 
 #gridNosProjets .frameUp .petiteBanniere{
     width: 300px;
     height: 67px;
     background-color: rgba(0, 0, 0, 0.479);
-    font-size: 1.4em;
-    text-align: start;
-    align-items: center;
+    font-size: 1.2em;
     font-weight: bold;
     color: white;
     position: relative;
     top: -71px;
     opacity: 0;
-    padding: 15px;
+    padding: 10px;
+
     box-sizing: border-box;
     z-index: 2;
     
@@ -633,15 +639,13 @@ a:visited{
     width: 300px;
     height: 67px;
     background-color: rgba(0, 0, 0, 0.479);
-    font-size: 1.4em;
-    text-align: start;
-    align-items: center;
+    font-size: 1.2em;
     font-weight: bold;
     color: white;
     position: relative;
     top: -71px;
     opacity: 0;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
 }
 #gridNosProjets .frameDn:hover  .petiteBanniere{
