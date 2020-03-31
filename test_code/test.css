@@ -41,3 +41,39 @@
     margin: 1.1em 0px 0px 0px;
 }
 
+
+
+
+#gridNosProjets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+.frame{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    z-index: 2;
+}
+
+.frame .petiteBanniere{
+    width: 300px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 1.4em;
+    text-align: start;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 280px;
+    opacity: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.frame:hover .petiteBanniere{
+    opacity: 1;
+}
