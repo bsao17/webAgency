@@ -663,3 +663,11 @@ a:visited{
     padding: 10px 10px 10px 10px;
 }
 
+/*Page contact*/
+
+#googleMap{ 
+    width: 90%;
+    height:800px;
+    margin: auto;
+}
+

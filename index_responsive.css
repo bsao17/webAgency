@@ -17,6 +17,9 @@
 .logo{
     margin: 0px;
 }
+.chevron{
+    display: none;
+}
 #texteAccueil{
     position: absolute;
     display: flex;
@@ -47,10 +50,14 @@
 }
 #UX{
     margin: auto;
+    width: auto;
 }
 #UI{
     margin: auto;
+    width: auto;
+    
 }
 #SEO{
     margin: auto;
+    width: auto;
 }
