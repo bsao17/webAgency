@@ -1,3 +1,4 @@
+/*Paramètres globaux*/
 @font-face {
     font-family: 'robotomedium';
     src: url('font/roboto_medium/Roboto-Medium-webfont.eot');
@@ -23,17 +24,17 @@
 
 }
 
+
 body{
     margin: 0%;
     padding: 0px;
-    width: 100%;
-    
+    width: 100%; 
 }
 #bloc_page{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-family: robotomedium,'robotobold',Arial, sans-serif;
+    font-family: 'robotomedium','robotobold',Arial, sans-serif;
     font-size: 0.9em;
     color: rgba(94, 94, 94, 0.8);
     box-sizing: border-box;
@@ -45,29 +46,36 @@ a{
 a:visited{
     color: rgba(59, 59, 59, 0.800);
 }
+
+/*Bannière supérieur*/
+
 .banniere{
     display: flex;
     position: fixed;
-    min-width: 100%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     height: 100px;
-    z-index: 1;
+    z-index: 3;
+    
 }
 .logo{
     display: flex;
     margin-left: 15%
+    
 }
 .navigation{
     margin-right: 20px;
     padding: 0px 10% 0px 0px;
+    
 }
 .navigation li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     padding: 39px 10px 38px 10px;
     max-height: 100px;
+    
 }
 .navigation li:hover{
     padding-bottom: 39px;
@@ -75,6 +83,9 @@ a:visited{
     border-top: solid 4px rgb(112, 179, 255);
     
 }
+
+/*Page d'Accueil*/
+
 #corpsAccueil{
     display: flex;
     flex-direction: column;
@@ -86,9 +97,14 @@ a:visited{
 #imageAccueil{
     position: relative;
     display: flex;
+<<<<<<< HEAD
     width: 200%;
     height: auto;
     margin-top: 106px;
+=======
+    width: 100%;
+    margin: 106px 0px 0px 0px;
+>>>>>>> 1394d214cd2bc0ca404b74a276aaf5276e5cf329
     animation-name: sliderAccueil;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -172,11 +188,13 @@ a:visited{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 110px;  
+    margin-top: 50px;
+    
 }
-.fas{
+#left i, #right i{
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.767);
+    
 }
 #left{
     padding: 20px 20px 20px 5px;
@@ -192,46 +210,49 @@ a:visited{
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    margin-left: 200px;
+    margin-top: 45px;
+    margin-left: 220px;
     padding: 0px;
     color: white;
-    font-size: 1.35em;
-    font-family: 'robotobold';
+    font-size: 1.6em;
+    font-family: 'robotobold'; 
 }
 #texteAccueil h1{
     margin: -5px 0px -5px 0px;
     padding: 0px;
+    
 }
 #texteAccueil p{
     font-size: 0.6em;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
-button{
-    position: absolute;
+#boutons{
     background-color: rgb(112, 179, 255);
-    border-right: 0px;
-    border-top: 0px;
     border-color: rgb(112, 179, 255) ;
     border-radius: 5%;
     width: 115px;
     height: 40px;
     color: white;
     font-family: 'robotobold',Arial, sans-serif;
-    font-size: 1.2em;
-    margin: 200px 0px 0px 200px
+    font-size: 0.7em;
+    margin-top: 1em;
+    
 }
 #texteAccueil h1 span{
     color:rgb(112, 179, 255);
     margin: -5px 0px -5px 0px;
     padding: 0px;
 }
-#spaceSection{
+
+/* Espace entre chaque page*/
+
+#spaceSection, #spaceSection2,#spaceSection3{
     min-height: 100px;
 }
 
 /*Page Nos Services*/
+
 
 #nosServices h1{
     text-align: center;
@@ -298,7 +319,7 @@ button{
     height: 100px;
     margin-top: 100px;
     margin-left: 45%;
-    width: 50%;
+    width: 45%;
     padding-left: 110px;
      
 }
@@ -321,8 +342,8 @@ button{
 }
 #littleCircle{
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
@@ -359,7 +380,7 @@ button{
     height: 100px;
     margin-top: 20px;
     margin-left: 45%;
-    width: 50%;
+    width: 45%;
     padding-left: 110px;
      
 }
@@ -379,8 +400,8 @@ button{
 }
 #littleCircleUI{
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
@@ -414,7 +435,7 @@ button{
     height: 100px;
     margin-top: 20px;
     margin-left: 45%;
-    width: 50%;
+    width: 45%;
     padding-left: 110px;
      
 }
@@ -437,8 +458,8 @@ button{
 }
 #littleCircleSEO{
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
@@ -466,8 +487,193 @@ button{
     width: 60%;
     overflow: hidden;
 }
-
 #spaceSection2{
     min-height: 100px;
+}
+
+/* Page Nos Projets*/
+
+#nosProjets{
+    background-color: rgba(199, 199, 199, 0.3);
+    margin: 0px 100px 0px 100px;
+}
+#nosProjets h1{
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: 'robotobold',Arial, sans-serif;
+    margin: 15px 0px 15px 0px;
+}
+.underLineDecorationProjets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#underlineLeftProjets{
+    width: 3%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.300);
+}
+#underlineRightProjets{
+    width: 3%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.300);
+}
+#pointProjets{
+    width: 15px;
+    height: 15px;
+    border: solid white 7px;
+    border-radius: 50%;
+    background-color: rgba(102, 172, 252, 0.9);  
+}
+#nosProjets p{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+.sloganProjets{
+    margin: 0px;
+    padding: 0px;   
+}
+.sloganProjets:nth-child(1){
+    padding-top: 15px;
+}
+
+/*Bouton de navigation Nos Projets*/
+
+#navigationNosProjets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -50px;
+    width: 100%;
+    height: 150px;
+    
+}
+#navigationNosProjets li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: rgba(172, 172, 172, 0.527);
+    height: 19px;
+}
+#navigationNosProjets li{
+    border-bottom: solid transparent 2px;
+    width: 70px;
+}
+
+#navigationNosProjets li:hover .fas{
+    opacity: 1;
+}
+
+#navigationNosProjets .bouton:nth-child(1){
+    border-bottom: solid rgb(33, 137, 255) 3px;
+    color: white;
+    background-color: rgba(102, 172, 252, 0.9);
+    height: 17px;
+}
+#navigationNosProjets li:nth-child(1) .fas{
+    opacity: 1;
+}
+#navigationNosProjets .bouton:hover{
+    border-bottom: solid rgb(33, 137, 255) 3px;
+    color: white;
+    background-color: rgba(102, 172, 252, 0.9);
+    height: 17px;
+}
+
+.bouton:nth-child(1){
+    border-radius: 5px 0px 0px 5px;
+}
+.bouton:nth-child(4){
+    border-radius: 0px 5px 5px 0px;
+}
+.fa-caret-down{
+    color: rgb(33, 137, 255);
+    opacity: 0;
+    font-size: 1.5em;
+    position: absolute;
+    margin-top: 1.25em;
+}
+
+/* Début de la partie "Frame" de la page Nos Projets*/
+
+#gridNosProjets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    z-index: 1;
+}
+.frameUp, .frameDn{
+    width: 300px;
+    height: 200px;
+    margin: 10px; 
+}
+.frameUp span{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+.frameDn span{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+#gridNosProjets .frameUp .petiteBanniere{
+    width: 300px;
+    height: 67px;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -71px;
+    opacity: 0;
+    padding: 10px;
+
+    box-sizing: border-box;
+    z-index: 2;
+    
+}
+#gridNosProjets .frameUp:hover  .petiteBanniere{
+    opacity: 1;
+}
+#gridNosProjets .frameDn .petiteBanniere{
+    width: 300px;
+    height: 67px;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -71px;
+    opacity: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#gridNosProjets .frameDn:hover  .petiteBanniere{
+    opacity: 1;
+}
+.far{
+    position: absolute;
+    top: -20px;
+    left: 240px;
+    font-size: 1em;    
+    border: solid white 2px;
+    border-radius: 50%;
+    background-color: rgb(33, 137, 255);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+/*Page contact*/
+
+#googleMap{ 
+    width: 90%;
+    height:800px;
+    margin: auto;
 }
 

@@ -1,0 +1,63 @@
+.banniere{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation{
+    margin-right: 0px;
+    font-size: 1.3em;
+}
+
+.navigation li:hover{
+    
+    padding-top: 10px;
+    border-top: solid 4px rgb(112, 179, 255);
+    
+}
+.logo{
+    margin: 0px;
+}
+.chevron{
+    display: none;
+}
+#texteAccueil{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 0px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'robotobold';  
+}
+#texteAccueil p{
+    font-size: initial;
+}
+#boutons{
+    font-size: initial;
+    
+}
+
+.corpService{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imageService{
+    position: relative;
+    margin: auto;
+}
+#UX{
+    margin: auto;
+    width: auto;
+}
+#UI{
+    margin: auto;
+    width: auto;
+    
+}
+#SEO{
+    margin: auto;
+    width: auto;
+}
