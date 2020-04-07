@@ -1,3 +1,8 @@
+
+:root{
+    --bleuPrincipal:rgb(144, 144, 252);
+}
+
 #navigationNosProjets{
     display: flex;
     justify-content: center;
@@ -11,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    background-color: rgb(180, 180, 180);
+    background-color: var(--bleuPrincipal);
     color: black;
 }
 #navigationNosProjets li:nth-child(1){
