@@ -23,13 +23,7 @@
     font-style: normal;
 
 }
-/*Définition d'une variable pour la couleur bleu principale du site*/
 
-:root{
-    --bleuPrincipal:rgba(102, 172, 252, 0.9);
-}
-
-/*Réglages pour le document global*/
 
 body{
     margin: 0%;
@@ -103,14 +97,8 @@ a:visited{
 #imageAccueil{
     position: relative;
     display: flex;
-<<<<<<< HEAD
-    width: 200%;
-    height: auto;
-    margin-top: 106px;
-=======
     width: 100%;
     margin: 106px 0px 0px 0px;
->>>>>>> 1394d214cd2bc0ca404b74a276aaf5276e5cf329
     animation-name: sliderAccueil;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -234,7 +222,7 @@ a:visited{
     margin-bottom: 10px;
 }
 #boutons{
-    background-color: var(--bleuPrincipal);
+    background-color: rgb(112, 179, 255);
     border-color: rgb(112, 179, 255) ;
     border-radius: 5%;
     width: 115px;
@@ -246,7 +234,7 @@ a:visited{
     
 }
 #texteAccueil h1 span{
-    color: var(--bleuPrincipal);
+    color:rgb(112, 179, 255);
     margin: -5px 0px -5px 0px;
     padding: 0px;
 }
@@ -287,7 +275,7 @@ a:visited{
     height: 15px;
     border: solid white 7px;
     border-radius: 50%;
-    background-color: var(--bleuPrincipal);  
+    background-color: rgba(102, 172, 252, 0.9);  
 }
 #nosServices p{
     font-size: 1.2em;
@@ -331,7 +319,7 @@ a:visited{
 }
 #UX i{
     position: absolute;
-    color: var(--bleuPrincipal);
+    color: rgba(102, 172, 252, 0.9);
     font-size: 2.2em;
     padding: 15px;
     margin: 5px;
@@ -351,7 +339,7 @@ a:visited{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(--bleuPrincipal);
+    background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
     border: solid white 5px;
     
@@ -392,7 +380,7 @@ a:visited{
 }
 #UI i{
     position: absolute;
-    color: var(--bleuPrincipal);
+    color: rgba(102, 172, 252, 0.9);
     font-size: 2.2em;
     padding: 15px;
     margin: 5px;
@@ -409,7 +397,7 @@ a:visited{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(--bleuPrincipal);
+    background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
     border: solid white 5px;   
 }
@@ -447,7 +435,7 @@ a:visited{
 }
 #SEO i{
     position: absolute;
-    color: var(--bleuPrincipal);
+    color: rgba(102, 172, 252, 0.9);
     font-size: 2em;
     padding: 15px;
     margin: 5px;
@@ -467,7 +455,7 @@ a:visited{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(--bleuPrincipal);
+    background-color: rgba(102, 172, 252, 0.9);
     margin: 25px 0px 200px 60px;
     border: solid white 5px;
     
@@ -530,7 +518,7 @@ a:visited{
     height: 15px;
     border: solid white 7px;
     border-radius: 50%;
-    background-color: var(--bleuPrincipal);  
+    background-color: rgba(102, 172, 252, 0.9);  
 }
 #nosProjets p{
     font-size: 1.2em;
@@ -578,7 +566,7 @@ a:visited{
 #navigationNosProjets .bouton:nth-child(1){
     border-bottom: solid rgb(33, 137, 255) 3px;
     color: white;
-    background-color: var(--bleuPrincipal);
+    background-color: rgba(102, 172, 252, 0.9);
     height: 17px;
 }
 #navigationNosProjets li:nth-child(1) .fas{
@@ -587,7 +575,7 @@ a:visited{
 #navigationNosProjets .bouton:hover{
     border-bottom: solid rgb(33, 137, 255) 3px;
     color: white;
-    background-color: var(--bleuPrincipal);
+    background-color: rgba(102, 172, 252, 0.9);
     height: 17px;
 }
 
@@ -670,75 +658,16 @@ a:visited{
     font-size: 1em;    
     border: solid white 2px;
     border-radius: 50%;
-    background-color: var(--bleuPrincipal);
+    background-color: rgb(33, 137, 255);
     color: white;
     padding: 10px 10px 10px 10px;
 }
 
 /*Page contact*/
 
-#contact{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-}
 #googleMap{ 
     width: 90%;
-    height:600px;
+    height:800px;
     margin: auto;
-    position: absolute;
 }
-.formulaireContact{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    position: relative;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.800);
-    margin-top: 2.5%;
-    margin-left: 65%;
-    margin-right: auto;
-    width: 280px;
-    padding: 1%;
-}
-.formulaireContact input{
-    width: 100%;
-    height: 25px;
-    font-size: 1em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-textarea{
-    width: 100%;
-    height: 200px;
-    font-size: 1.2em;
-    font-family: 'robotomedium';
-    margin-bottom: 10px;
-}
-.formulaireContact h1{
-    color: black;
-    margin: 0px;
-}
-.formulaireContact h3{
-    font-size: 0.9em;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-.formulaireContact address{
-    font-size: 1em;
-}
-.formulaireContact #telephone{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 1em;
-}
-#submitButton{
-    width: 40%;
-    height: 35px;
-    background-color: var(--bleuPrincipal) ;
-    border-color:var(--bleuPrincipal);
-    border-radius: 2px;
-    color: white;
-    padding: 5px;
-}
+
