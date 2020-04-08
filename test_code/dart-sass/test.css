@@ -1,0 +1,19 @@
+#navigationNosProjets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.bouton {
+  border: solid black 1px;
+  width: 100px;
+  height: 3rem;
+}
+
+/*# sourceMappingURL=test.css.map */
