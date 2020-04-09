@@ -16,4 +16,9 @@ body {
   height: 3rem;
 }
 
+#gridNosProjets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*# sourceMappingURL=test.css.map */
