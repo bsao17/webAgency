@@ -10,7 +10,6 @@
 }
 
 .navigation li:hover{
-    
     padding-top: 7%;
     border-top: solid 4px rgb(112, 179, 255);
     
@@ -30,6 +29,7 @@
     right: 0%;
     left: 0%;
     margin: 5%;
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,8 @@
     padding: 0px;
     color: rgba(94, 94, 94, 0.8);
     font-size: 1.3em;
-    font-family: 'robotobold';  
+    font-family: 'robotobold';
+    text-align: center;  
 }
 #texteAccueil p{
     font-size: initial;
@@ -89,6 +90,7 @@
     background-color: var(--bleuPrincipal);
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 20px;
     width: 280px;
     padding: 2%;
 }
