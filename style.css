@@ -625,7 +625,8 @@ a:visited{
     padding: 1%;
 }
 .formulaireContact input{
-    width: 100%;
+    width: 95%;
+    
     height: 25px;
     font-size: 1em;
     font-weight: bold;
