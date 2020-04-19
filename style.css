@@ -106,86 +106,9 @@ a:visited{
 #imageAccueil{
     position: relative;
     display: flex;
-    width: 100%;
     margin: 106px 0px 0px 0px;
-    animation-name: sliderAccueil;
-    animation-duration: 20s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
+}
 
-    -moz-animation-name: sliderAccueil;
-    -moz-animation-duration: 20s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-direction: normal;
-    
-    -webkit-animation-name: sliderAccueil;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: normal;
-}
-/*@keyframes sliderAccueil{
-    0%{
-        transform: translateX(0%);
-    }
-    20%{
-        transform: translateX(0%);
-    }
-    40%{
-        transform: translateX(-50%);
-    }
-    60%{
-        transform: translateX(-50%);
-    }
-    80%{
-        transform: translateX(-1OO%);
-    }
-    100%{
-        transform: translateX(-1OO%);
-    }
-}
-@-moz-keyframes sliderAccueil{
-    0%{
-        transform: translateX(0%);
-    }
-    20%{
-        transform: translateX(0%);
-    }
-    40%{
-        transform: translateX(-50%);
-    }
-    60%{
-        transform: translateX(-50%);
-    }
-    80%{
-        transform: translateX(-1OO%);
-    }
-    100%{
-        transform: translateX(-1OO%);
-    }
-}
-@-webkit-keyframes sliderAccueil{
-    0%{
-        transform: translateX(0%);
-    }
-    20%{
-        transform: translateX(0%);
-    }
-    40%{
-        transform: translateX(-50%);
-    }
-    60%{
-        transform: translateX(-50%);
-    }
-    80%{
-        transform: translateX(-1OO%);
-    }
-    100%{
-        transform: translateX(-1OO%);
-    }
-}*/
 .chevron{
     position: absolute;
     display: flex;
@@ -697,7 +620,8 @@ a:visited{
     margin-top: 2.5%;
     margin-left: 65%;
     margin-right: auto;
-    width: 280px;
+    width: 20%;
+    height: 500px;
     padding: 1%;
 }
 .formulaireContact input{

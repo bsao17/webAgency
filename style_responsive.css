@@ -1,5 +1,5 @@
 .banniere{
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -9,17 +9,21 @@
     padding: 0px;
 }
 
+.navigation li:hover a{
+    background-color: rgb(112, 179, 255);
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px 10px 10px; 
+}
 .navigation li:hover{
-    
-    padding-top: 7%;
-    border-top: solid 4px rgb(112, 179, 255);
-    
+    border: none;
 }
 .logo{
     margin: 0px;
 }
 #imageAccueil{
     position: relative;
+    width: 100%;
     opacity: 0;
 }
 .chevron{
@@ -27,16 +31,17 @@
 }
 #texteAccueil{
     position: absolute;
+    text-align: center;
     right: 0%;
     left: 0%;
-    margin: 5%;
+    top: 15%;
+    margin: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 0px;
-    color: rgba(94, 94, 94, 0.8);
-    font-size: 1.3em;
+    color: rgb(94, 94, 94);
+    font-size: 1.4em;
     font-family: 'robotobold';  
 }
 #texteAccueil p{
@@ -44,6 +49,8 @@
 }
 #boutons{
     font-size: initial;
+    border-radius: 50%;
+    border: none;
     
 }
 
@@ -89,6 +96,7 @@
     background-color: var(--bleuPrincipal);
     margin: auto;
     margin-top: 5%;
-    width: 280px;
+    width: 40%;
+    height: 500px;
     padding: 2%;
 }
