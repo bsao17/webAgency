@@ -140,7 +140,7 @@ a:visited{
     margin-left: 220px;
     padding: 0px;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-family: 'robotobold'; 
 }
 #texteAccueil h1{
@@ -291,10 +291,10 @@ a:visited{
 #texteUX p{
     text-align: justify;
     margin: 10px 200px 0px 0px;
-    font-size: 1.2em;
+    font-size: 1em;
     height: 45px;
     width: 60%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 /*Bannière UI avec logo*/
@@ -348,10 +348,10 @@ a:visited{
 #texteUI p{
     text-align: justify;
     margin: 10px 200px 0px 0px;
-    font-size: 1.2em;
+    font-size: 1em;
     height: 45px;
     width: 60%;
-    overflow: hidden;
+    overflow: visible;
 }
 /*Bannière SEO avec logo*/
 
@@ -408,10 +408,10 @@ a:visited{
 #texteSEO p{
     text-align: justify;
     margin: 10px 200px 0px 0px;
-    font-size: 1.2em;
+    font-size: 1em;
     height: 45px;
     width: 60%;
-    overflow: hidden;
+    overflow: visible;
 }
 #spaceSection2{
     min-height: 100px;

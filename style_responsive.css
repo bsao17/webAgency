@@ -54,6 +54,7 @@
     
 }
 
+
 .corpService{
     display: flex;
     flex-direction: column;
@@ -63,6 +64,7 @@
     position: relative;
     margin: auto;
 }
+
 #UX{
     margin: auto;
     width: auto;
