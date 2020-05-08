@@ -107,6 +107,7 @@ a:visited{
     position: relative;
     display: flex;
     margin: 106px 0px 0px 0px;
+    width: 100%;
 }
 
 .chevron{
@@ -246,7 +247,7 @@ a:visited{
     margin-top: 100px;
     margin-left: 45%;
     width: 45%;
-    padding-left: 110px;
+    padding-left: 10%;
      
 }
 #UX i{
@@ -307,7 +308,7 @@ a:visited{
     margin-top: 20px;
     margin-left: 45%;
     width: 45%;
-    padding-left: 110px;
+    padding-left: 10%;
      
 }
 #UI i{
@@ -354,7 +355,10 @@ a:visited{
     overflow: visible;
 }
 /*Bannière SEO avec logo*/
-
+.gridService{
+    width: 100%;
+    margin: auto;
+}
 #SEO{
     display: flex;
     align-items: flex-start;
@@ -362,7 +366,7 @@ a:visited{
     margin-top: 20px;
     margin-left: 45%;
     width: 45%;
-    padding-left: 110px;
+    padding-left: 10%;
      
 }
 #SEO i{
