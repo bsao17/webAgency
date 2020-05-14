@@ -108,6 +108,11 @@ a:visited{
     display: flex;
     margin: 106px 0px 0px 0px;
     width: 100%;
+    overflow: hidden;
+    
+}
+.slide{
+    width: 200%;
 }
 
 .chevron{
